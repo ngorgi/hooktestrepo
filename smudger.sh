@@ -2,6 +2,6 @@
 
 
 echo "smudger"
-sed 's/true/false/'
+sed --expression='s/true/false/g'
 
 exit 0

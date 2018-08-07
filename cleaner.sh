@@ -2,6 +2,6 @@
 
 
 echo "cleaner"
-sed 's/false/true/'
+sed --expression 's/false/true/g'
 
 exit 0
